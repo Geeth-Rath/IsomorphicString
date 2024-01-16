@@ -8,6 +8,7 @@ public class Isomorphic {
         char[] sArry = s.toCharArray();
         char[] eArry = e.toCharArray();
         int i = 0;
+
         Map<Character, Character> hmap = new HashMap<>();
         if (sArry.length == eArry.length) {
 
